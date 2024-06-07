@@ -1,0 +1,69 @@
+.swiper-container {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+    /* height: fit-content; */
+}
+  .swiper-slide {
+    /* position: relative; Establishes positioning context */
+    text-align: center;
+    /* font-size: 18px; */
+    /* Center the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column;  */
+    overflow: hidden; 
+  }
+
+  .swiper-slide img {
+    width:95%;
+    height: 380px;
+    margin-top: 2%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+  .swiper-pagination-bullet {
+
+    border: 1px solid rgb(255, 255, 255); /* Add circular border */
+    border-radius: 50%; /* Ensure the shape is a circle */
+    background-color: transparent; /* Set background to transparent */
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #d3f400 !important; /* Set active bullet background color */
+}
+.desription{
+  width: 60%;
+  padding: 0;
+  margin-top: -50px;
+}
+
+  /* Paragraph style */
+.desription {
+    text-align:left;
+    font-size: 18px;
+    margin-left: 50px;
+  }
+  /* Title style */
+  .title-frist {
+    color: #D2F400; /* Title color */
+    font-size: 36px; /* Title font size */
+    margin: 0; /* Remove default margin */
+    z-index: 1;
+    backdrop-filter: blur(20px);
+    width: max-content;
+  }
+  .desc-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  .desc-list li{ 
+    margin-right: 20px;
+  }
+  .watch_btn img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }

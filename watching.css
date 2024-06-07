@@ -1,0 +1,40 @@
+#watching{
+    margin: 30px;
+}
+h4{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #D2F400;
+    width: max-content;
+    border-bottom:3px solid  #D2F400;
+   
+}
+video{
+    width: 60%;
+    margin-bottom: 50px;
+}
+.info{
+    display: flex;
+}
+.desription-watching{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.desription-watching img{
+    width: 200px;
+    height: 300px;
+    border-radius: 7px;
+    object-fit: cover;
+    margin-right: 30px;
+}
+.lable2{
+    font-size: 18px;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-top: 20px;
+}
